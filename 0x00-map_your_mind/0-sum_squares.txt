@@ -1,1 +1,27 @@
+1. Take variables num1 , num2 and sum
+2. Read variables to num1 and num2 
+3. Multiply num1 and num2 by them selves and store the values into theselves respectively 
+4. Add the new num1 and num2 and store it in sum
+5. return sum 
 
+BEGIN
+
+NUMBER num1, num2, sum
+
+OUTPUT("Input number1:")
+
+INPUT num1
+
+OUTPUT("Input number2:")
+
+INPUT num2
+
+num1 = num1 * num1
+
+num2 = num2 * num2
+
+sum=num1 + num2
+
+OUTPUT sum
+
+END
